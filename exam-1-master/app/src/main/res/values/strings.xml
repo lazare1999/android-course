@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">exam_1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_password">change password</string>
+    <string name="log_out">log out</string>
+
+    <string name="menu_calc">calc</string>
+    <string name="menu_notes">notes</string>
+    <string name="menu_sql_lite">sql lite</string>
+    <string name="menu_retrofit">retrofit</string>
+</resources>

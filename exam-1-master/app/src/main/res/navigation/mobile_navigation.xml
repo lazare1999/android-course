@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_calc">
+
+    <fragment
+        android:id="@+id/nav_calc"
+        android:name="com.example.exam_1.ui.calc.CalcFragment"
+        android:label="@string/menu_calc"
+        tools:layout="@layout/fragment_calc" />
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.example.exam_1.ui.notes.NotesFragment"
+        android:label="@string/menu_notes"
+        tools:layout="@layout/fragment_notes" />
+
+    <fragment
+        android:id="@+id/nav_sql_lite"
+        android:name="com.example.exam_1.ui.sql_lite.SqlLiteFragment"
+        android:label="@string/menu_sql_lite"
+        tools:layout="@layout/fragment_sql_lite" />
+
+    <fragment
+        android:id="@+id/nav_retrofit"
+        android:name="com.example.exam_1.ui.retrofit.RetrofitFragment"
+        android:label="@string/menu_retrofit"
+        tools:layout="@layout/fragment_retrofit" />
+
+</navigation>

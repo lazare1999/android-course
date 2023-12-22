@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.lazo.fragments.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action android:id="@+id/goToDashboard"
+            app:destination="@+id/navigation_dashboard">
+            <argument
+                android:name="amount"
+                app:argType="string"
+                android:defaultValue="1" />
+        </action>
+    </fragment>
+
+
+
+    <fragment android:id="@+id/navigation_dashboard"
+        android:name="com.lazo.fragments.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <argument
+            android:name="amount"
+            app:argType="string"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.lazo.fragments.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+
+    <fragment
+        android:id="@+id/navigation_about_us"
+        android:name="com.lazo.fragments.ui.about_us.AboutUsFragment"
+        android:label="@string/title_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+
+</navigation>

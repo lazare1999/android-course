@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "107635283277",
+    "project_id": "avian-silicon-300014",
+    "storage_bucket": "avian-silicon-300014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107635283277:android:986af1b5e686673ce6d304",
+        "android_client_info": {
+          "package_name": "com.lazo.quiz3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107635283277-gg32lohpd2roj3f9h904ekiqkv3m1656.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9dDMi80D4RnLpMuMP_5rbiNbo3Ro_VyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107635283277-gg32lohpd2roj3f9h904ekiqkv3m1656.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

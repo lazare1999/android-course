@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragments</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="my_image_description">racxa</string>
+    <string name="title_about_us">about_us</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390863010252",
+    "project_id": "fir-auth-88f00",
+    "storage_bucket": "fir-auth-88f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390863010252:android:a6fdd3be6b3714e16d8569",
+        "android_client_info": {
+          "package_name": "com.lazo.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390863010252-b5u1la64gj06bolvkrac0e42mf97o7q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq3iKqwY_bsGIpagG9i6ABH8VFKPLI_Sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390863010252-b5u1la64gj06bolvkrac0e42mf97o7q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

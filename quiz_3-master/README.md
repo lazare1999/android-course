@@ -1,0 +1,1 @@
+firebaze auth full
